@@ -1,0 +1,10 @@
+
+nome = input('Digit algo: ')
+print('O tipo primitivo desse valor é: {}'.format(type(nome)))
+print('Só tem espaços? {}'.format(nome.isspace()))
+print('Tem letras maiusculas? {}'.format(nome.isupper()))
+print('Tem letras e numeros? {}'.format(nome.isalnum()))
+print('Tem letras minusculas? {}'.format(nome.islower()))
+print('Tem letras ? {}'.format(nome.isalpha()))
+print('Tem numeros? {}'.format(nome.isnumeric()))
+print('Tem letras asc? {}'.format(nome.isascii()))
