@@ -9,7 +9,7 @@ res = ParOuImpar = ''
 while True:
     comp = randint(0,10)
     jogador = int(input('Digite um valor: '))
-    while ParOuImpar not in'PI':
+    while ParOuImpar not in 'PI':
         ParOuImpar = str(input('Par ou Ímpar[P/I]: ')).upper().strip()[0]
     print('---------------------------------------------------------')
     soma = comp + jogador
