@@ -1,4 +1,4 @@
-<h1 align="center"> Exercícios em Pyhton</h1>
+<h1 align="center"> Exercícios em Python</h1>
 
 - <h3>Operadores Aritméticos</h3>
 - <h3>Operadores Relacionais</h3>
