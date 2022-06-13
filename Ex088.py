@@ -11,7 +11,7 @@ while tot <= qtd:
         if num not in lista:
             lista.append(num)
             cont += 1
-        if cont >= 15:
+        if cont > 14:
             break
     lista.sort()
     jogos.append(lista[:])
